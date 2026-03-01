@@ -1,0 +1,109 @@
+/* Workcastr Marketing Site - Modern SaaS Styles */
+
+:root {
+  --wc-primary: #2D8B8E;
+  --wc-primary-dark: #247275;
+  --wc-primary-light: #87CDCF;
+  --wc-accent: #87CDCF;
+  --bs-primary: #2D8B8E;
+  --bs-primary-rgb: 45, 139, 142;
+  --wc-text: #1e293b;
+  --wc-text-muted: #64748b;
+  --wc-bg: #ffffff;
+  --wc-bg-alt: #f8fafc;
+  --wc-border: #e2e8f0;
+  --wc-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --wc-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --wc-radius: 0.5rem;
+  --wc-radius-lg: 0.75rem;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--wc-text);
+  background-color: var(--wc-bg);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--wc-text);
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+@media (min-width: 768px) {
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.5rem; }
+}
+
+.btn-primary {
+  background-color: var(--wc-primary);
+  border-color: var(--wc-primary);
+  color: white !important;
+  padding: 0.625rem 1.25rem;
+  font-weight: 500;
+  border-radius: var(--wc-radius);
+}
+
+.btn-primary:hover {
+  background-color: var(--wc-primary-dark);
+  border-color: var(--wc-primary-dark);
+  color: white !important;
+}
+
+.btn-outline-primary {
+  border-color: var(--wc-primary);
+  color: var(--wc-primary);
+  font-weight: 500;
+  border-radius: var(--wc-radius);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--wc-primary);
+  border-color: var(--wc-primary);
+  color: white;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-alt {
+  background-color: var(--wc-bg-alt);
+}
+
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 992px) {
+  .hero {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.feature-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.card {
+  border-radius: var(--wc-radius-lg);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--wc-shadow-lg) !important;
+}
+
+footer a:hover {
+  color: white !important;
+}
