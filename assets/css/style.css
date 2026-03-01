@@ -82,6 +82,20 @@ h2 { font-size: 2rem; }
   padding-bottom: 4rem;
 }
 
+.hero-screenshot {
+  max-height: 430px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-screenshot-img {
+  width: 100%;
+  height: auto;
+  max-height: 430px;
+  object-fit: contain;
+  object-position: top;
+}
+
 @media (min-width: 992px) {
   .hero {
     padding-top: 4rem;
