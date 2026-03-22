@@ -118,6 +118,33 @@ h2 { font-size: 2rem; }
   box-shadow: var(--wc-shadow-lg) !important;
 }
 
-footer a:hover {
-  color: white !important;
+/* Dark footer: Bootstrap text-muted / default link colors are illegible on bg-dark */
+footer.bg-dark a {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+footer.bg-dark a:hover,
+footer.bg-dark a:focus {
+  color: #fff !important;
+}
+
+footer.bg-dark p.text-muted {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+/* Legal pages (privacy, terms) */
+.legal-main {
+  min-height: 60vh;
+}
+
+.legal-content {
+  max-width: 42rem;
+}
+
+.legal-content h2 {
+  font-weight: 600;
+}
+
+.legal-content ul {
+  padding-left: 1.25rem;
 }
