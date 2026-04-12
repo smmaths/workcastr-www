@@ -12,7 +12,7 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Workcastr – Time Tracking & Reports</title>
+  <title>Workcastr – Timeline, Goals & Reports</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -58,9 +58,9 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <h1 class="mb-4">Effortless time tracking, reports, and sharing</h1>
+          <h1 class="mb-4">Your work in three tabs: Timeline, Reports, and Goals</h1>
           <p class="lead text-muted mb-4">
-            Log time with rich descriptions, connect your calendar, turn work into polished reports, and share them with anyone by link, whether they have an account or not.
+            See upcoming plans and recent logs together on the <strong>Timeline</strong>, build and share <strong>Reports</strong> by period, and set time-bound <strong>Goals</strong> tied to projects—with dashboards, progress gauges, and optional share links. Rich descriptions, calendar imports, and @ # ~ mentions stay at the center of how you capture work.
           </p>
           <div class="d-flex flex-wrap gap-3">
             <a class="btn btn-primary btn-lg" href="https://app.workcastr.com" target="_blank" rel="noopener">Get Started Free</a>
@@ -69,7 +69,7 @@
         </div>
         <div class="col-lg-6 mt-5 mt-lg-0">
           <div class="hero-screenshot rounded-3 overflow-hidden">
-            <img src="assets/images/hero-v3.png" alt="Workcastr app" class="hero-screenshot-img">
+            <img src="assets/images/hero-v4.png" alt="Workcastr app showing Timeline, Reports, and Goals" class="hero-screenshot-img">
           </div>
         </div>
       </div>
@@ -80,29 +80,49 @@
   <section id="features" class="section section-alt">
     <div class="container">
       <div class="text-center mb-5">
-        <h2 class="mb-3">Everything you need to track time</h2>
-        <p class="text-muted lead">Simple, powerful features for tracking work and sharing the story behind it.</p>
+        <h2 class="mb-3">Built around how you actually work</h2>
+        <p class="text-muted lead">A clear three-tab layout on desktop, with the same three destinations in the mobile bottom bar—plus the power features you expect underneath.</p>
       </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-          <div class="card h-100 border-0 shadow-sm">
+      <div class="row g-4 mb-2">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-top border-4 border-primary">
             <div class="card-body p-4">
-              <div class="feature-icon mb-3 text-primary">&#129534;</div>
-              <h5 class="card-title">Frictionless time entries</h5>
-              <p class="card-text text-muted">Log hours with dates and rich descriptions. No clunky forms—just quick, natural input.</p>
+              <div class="feature-icon mb-3 text-primary">&#128203;</div>
+              <h5 class="card-title">Timeline</h5>
+              <p class="card-text text-muted mb-0">One unified view for upcoming plans, today, and recent activity. Log work, convert plans to entries, and keep context without jumping between screens.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-top border-4 border-primary">
+            <div class="card-body p-4">
+              <div class="feature-icon mb-3 text-primary">&#128202;</div>
+              <h5 class="card-title">Reports</h5>
+              <p class="card-text text-muted mb-0">Create reports, move through weeks or months, and refresh previews on demand. Share a read-only link so clients or stakeholders can view results without an account.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-top border-4 border-primary">
+            <div class="card-body p-4">
+              <div class="feature-icon mb-3 text-primary">&#127919;</div>
+              <h5 class="card-title">Goals</h5>
+              <p class="card-text text-muted mb-0">Define time-bound targets by <code>#project</code>—total hours, percent complete, or a numeric track (e.g. weight, savings). Open a <strong>dashboard</strong> with gauges and drill into history; open a chart on any target to see reported values vs. the ideal line over time. Share the dashboard with a link on Pro and Business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body p-4">
               <div class="feature-icon mb-3 text-primary">&#64;</div>
-              <h5 class="card-title">Smart mentions</h5>
-              <p class="card-text text-muted">Use <code>@people</code>, <code>#projects</code>, and <code>~tags</code> in descriptions. Workcastr auto-creates and organizes them.</p>
+              <h5 class="card-title">Mentions &amp; quick signals</h5>
+              <p class="card-text text-muted">Tag <code>@people</code>, <code>#projects</code>, and <code>~tags</code> in descriptions. Add <code>+hours</code>, <code>+N%</code> on a project for progress, or <code>=N</code> with a project for numeric milestones—Workcastr parses them and ties them to goals and reporting.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body p-4">
               <div class="feature-icon mb-3 text-primary">&#128197;</div>
@@ -111,12 +131,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body p-4">
               <div class="feature-icon mb-3 text-primary">&#128257;</div>
-              <h5 class="card-title">One-click report sharing</h5>
-              <p class="card-text text-muted">Share reports instantly with teammates, clients, or stakeholders using a simple link. Viewers do not need a Workcastr account.</p>
+              <h5 class="card-title">Share reports &amp; goal dashboards</h5>
+              <p class="card-text text-muted">Share reports and (on Pro and Business) read-only goal dashboards with a simple link—viewers do not need a Workcastr account.</p>
             </div>
           </div>
         </div>
@@ -149,15 +169,15 @@
         <div class="col-lg-3 col-md-6">
           <div class="how-step text-center">
             <div class="how-step-num rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 3rem; height: 3rem;">3</div>
-            <h5>Log time with mentions</h5>
-            <p class="text-muted small mb-0">Add entries manually or from calendar. Use @ # ~ to organize.</p>
+            <h5>Capture work on the Timeline</h5>
+            <p class="text-muted small mb-0">Log time and plans with @ # ~, +hours, +N% or =N on projects. Optionally pull from your calendar.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="how-step text-center">
             <div class="how-step-num rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3" style="width: 3rem; height: 3rem;">4</div>
-            <h5>Share reports in one click</h5>
-            <p class="text-muted small mb-0">Generate a report and send a link that anyone can open, even without an account.</p>
+            <h5>Reports &amp; Goals</h5>
+            <p class="text-muted small mb-0">Switch to Reports for period summaries, or Goals for targets and dashboards—then share links when you need to.</p>
           </div>
         </div>
       </div>
@@ -201,7 +221,7 @@
               <ul class="list-unstyled mb-4 flex-grow-1">
                 <li class="mb-2">&#10003; Unlimited everything for personal use</li>
                 <li class="mb-2">&#10003; Multiple calendar integrations</li>
-                <li class="mb-2">&#10003; Goals & unlimited shared reports</li>
+                <li class="mb-2">&#10003; Goals (dashboards, history charts, sharing) &amp; unlimited shared reports</li>
                 <li class="mb-2 text-muted">No shared projects — solo workspace</li>
               </ul>
               <a class="btn btn-primary w-100" href="https://app.workcastr.com" target="_blank" rel="noopener">Start Pro free trial</a>
@@ -251,15 +271,23 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">How is my data isolated?</button>
               </h3>
               <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Workcastr uses per-user data isolation. Your time entries, projects, people, and tags are private to your account.</div>
+                <div class="accordion-body">Workcastr uses per-user data isolation. Your time entries, plans, projects, people, tags, and goals are private to your account unless you explicitly create a share link.</div>
               </div>
             </div>
             <div class="accordion-item border-0 shadow-sm mb-2 rounded">
               <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">What are mentions?</button>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">What are Timeline, Reports, and Goals?</button>
               </h3>
               <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Mentions let you tag people (<code>@name</code>), projects (<code>#project</code>), and tags (<code>~tag</code>) directly in your time entry descriptions. Workcastr automatically creates and organizes these for you.</div>
+                <div class="accordion-body"><strong>Timeline</strong> combines upcoming work, today, and recent history so you can plan and log in one place. <strong>Reports</strong> let you define views over your data by week or month and share them by link. <strong>Goals</strong> are time-bound targets tied to projects (hours, percent complete, or a numeric value); you get a dashboard with gauges, per-target history charts, and optional read-only sharing on Pro and Business. On smaller screens, the same three areas appear in the bottom navigation.</div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 shadow-sm mb-2 rounded">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqMentions" aria-expanded="false" aria-controls="faqMentions">What are mentions and the + / = syntax?</button>
+              </h3>
+              <div id="faqMentions" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">Tag people (<code>@name</code>), projects (<code>#project</code>), and tags (<code>~tag</code>) in descriptions—Workcastr creates and organizes them. Use <code>+1.5</code> (or similar) for hours, <code>+25%</code> with a project for percent progress toward a goal, and <code>=220</code> with a project for numeric milestones (e.g. a scale reading). These tie naturally into the Goals tab when your targets match those project mentions.</div>
               </div>
             </div>
             <div class="accordion-item border-0 shadow-sm mb-2 rounded">
@@ -272,10 +300,10 @@
             </div>
             <div class="accordion-item border-0 shadow-sm mb-2 rounded">
               <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">Can I share reports with people outside my team?</button>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">Can I share reports or goal dashboards with people outside my team?</button>
               </h3>
               <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Yes. Shared reports can be opened by anyone with the link, including clients or stakeholders who do not have a Workcastr account.</div>
+                <div class="accordion-body">Yes. Shared reports can be opened by anyone with the link. On Pro and Business, read-only <strong>goal dashboards</strong> work the same way—clients or stakeholders do not need a Workcastr account.</div>
               </div>
             </div>
             <div class="accordion-item border-0 shadow-sm mb-2 rounded">
@@ -300,7 +328,7 @@
           <a class="d-flex align-items-center text-decoration-none" href="#">
             <span class="ms-2 fw-bold text-white">Workcastr</span>
           </a>
-          <p class="text-muted small mb-0 mt-2">&copy; 2025 Workcastr. All rights reserved.</p>
+          <p class="text-muted small mb-0 mt-2">&copy; 2026 Workcastr. All rights reserved.</p>
           <div class="mt-2">
             <a class="text-muted me-3" href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
             <a class="text-muted" href="#" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>

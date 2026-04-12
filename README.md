@@ -1,6 +1,6 @@
 # Workcastr Marketing Website
 
-Static marketing and landing page for [Workcastr](https://workcastr.com) – time tracking and reports.
+Static marketing and landing page for [Workcastr](https://workcastr.com) – Timeline, Goals, Reports, and shared dashboards.
 
 ## Tech Stack
 
